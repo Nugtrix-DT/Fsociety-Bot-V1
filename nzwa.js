@@ -316,11 +316,11 @@ function kyun(seconds){
 async function starts() {
 	const nzwa = new WAConnection()
 	nzwa.logger.level = 'warn'
-	nzwa.on('qr',()=>{
+	nzwa.on('qr', () => {
 		console.log(color('[','white'), color('!','red'), color(']','white'), color('Escanea el código pero rapido we'))
 	})
 
-	fs.existsSync('./nazwa.json') && nzwa.loadAuthInfo('./nazwa.json')
+	fs.existsSync('./Nazwa.json') && nzwa.loadAuthInfo('./Nazwa.json')
 	nzwa.on('connecting', () => {
 		start('2', 'Conectando...')
 	})
