@@ -7,6 +7,7 @@ const limit = (prefix, botName, ownerName) => {
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
    ┠≽ *Version* : 1
+   ༎░🇫🅢🅞🅒🅘🅔🅣🅨 ░༎
    ╿
 ┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
