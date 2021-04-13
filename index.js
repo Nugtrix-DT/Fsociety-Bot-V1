@@ -4,8 +4,7 @@ const figlet = require('figlet')
 lolcatjs.options.seed = Math.round(Math.random() * 1000);
 lolcatjs.options.colors = true;
 
-lolcatjs.fromString('[INFO] HI,I AM NUTRIA')
-lolcatjs.fromString('[SYSTEM] INICIANDO BOT SUSCRÍBETE...')
+lolcatjs.fromString('[INFO] HOLA,YO SOY NUTRIA')
 console.log('------------------------------------------------')
 let { spawn } = require('child_process')
 let path = require('path')
